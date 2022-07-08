@@ -1,0 +1,256 @@
+:root{
+    --color-primary: #8a2bc9;
+    --color-primary-variant: #39035f;
+    --color-white: #fff;
+    --color-light: #f4f4f4;
+    --color-black: #000f37;
+    --color-dark: #575757;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-white);
+    line-height: 1.7;
+    background-color: var(--color-black);
+}
+
+.container{
+    min-width: 1024px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+h1{
+    font-size: 3.6rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+}
+.container{
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section{
+    padding: 4.5rem 0 2rem;
+}
+
+.section__title{
+    font-size: 5.6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+.main{
+    overflow: hidden;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-white);
+    z-index: 1;
+    transition: .4s;
+    
+}
+
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+    color: var(--color-primary-variant);
+    font-weight: 900;
+}
+
+.ri-moon-fill{
+    color: var(--color-primary-variant);
+    position: absolute;
+    right: 4rem;
+}
+
+ .nav__menu{
+        position: fixed;
+        bottom: 1.5rem;
+        width: 90%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        padding: 1.25rem 2.8rem;
+        border-radius: .5rem;
+        background-color: var(--color-primary-variant);
+        box-shadow: 0 4px 12px hsla(220, 18% 40%, .15);
+        
+}
+.nav__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.nav__link{
+    color: var(--color-white);
+    font-weight: 600;
+    display: grid;
+    justify-items: center;
+    row-gap: .25rem;
+}
+
+.nav__link i{
+    font-size: 1.25rem;
+}
+
+.home{
+    background-color: var(--color-primary-variant);
+    margin-top: 2rem;
+    padding: 4rem 0 1rem;
+    row-gap: 8.5rem;
+}
+
+.home__title{
+    margin-top: 35px;
+}
+
+.home__description{
+    margin: 1rem 0 2rem;
+    line-height: 140%;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.home__images{
+    position: relative;
+    width: 610px;
+    justify-self: center;
+}
+
+.home__images img:nth-child(1){
+    width: 624px;
+    position: absolute;
+    right: -30.5rem;
+    top: -10.5rem;
+}
+
+.home__images img:nth-child(2){
+   margin-left: 0.5rem;
+   width: 480px;
+   position: relative;
+}
+
+.button__link{
+    color: var(--color-white);
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.button__link i{
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.button__link:hover i{
+    transform: translateX(.25rem);
+}
+
+.new__container{
+    row-gap: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.new__card{
+    justify-self: right;
+}
+
+.new__img{
+    width: 250px;
+    margin-bottom: 1rem;
+}
+
+.new__link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white);
+    padding-right: .75rem;
+}
+
+.new__link i{
+    font-size: 1.25rem;
+    transition: .3s;
+}
+
+.new__link:hover i{
+    transform: translateX(.25rem);
+}
+
+.scroll-header{
+    background-color: var(--color-primary-variant);
+    box-shadow: 0 1px 4px hsla(220, 4%, 15%, .15);
+}
+
+.products__container{
+    background-color: var(--color-white);
+    padding-bottom: 5rem;
+}
+
+.products__card{
+    width: 270px;
+}
+
+.products__img{
+    margin-bottom: 1rem;
+}
+
+.products__title{
+    font-size: 2rem;
+    margin-bottom: .75rem;
+}
+.products__price{
+    font-weight: 600;
+}

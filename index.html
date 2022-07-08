@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<link href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Shop
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-home-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">
+                            <i class="ri-price-tag-3-line"></i>
+                            <span>New</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">
+                            <i class="ri-shirt-fill"></i>
+                            <span>Products</span>
+                        </a>
+                    </li>
+                </ul>
+              
+            </div>
+            <i class="ri-moon-fill"></i>
+        </nav>
+       
+    </header>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        New Clothing <br> Collection
+                    </h1>
+                    <p class="home__description">
+                        The new collection of clothing from <br> the best brands this year.
+                    </p>
+                    <a href="#new" class="button__link">
+                        Explore<i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                <div class="home__images">
+                    <img src="img/man.webp" alt="">
+                    <img src="img/women.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="new section" id="new">
+            <h2 class="section__title">
+                New Collection
+            </h2>
+            <div class="new__container container grid">
+                <article class="new__card">
+                    <img src="img/1.webp" alt="" class="new__img">
+
+                    <a href="" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                Jackets
+                            </h2>
+                            <span>Autumn collection</span>
+                        </div>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+                <article class="new__card">
+                    <img src="img/2.webp" alt="" class="new__img">
+
+                    <a href="" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                Jackets
+                            </h2>
+                            <span>Autumn collection</span>
+                        </div>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+                <article class="new__card">
+                    <img src="img/3.webp" alt="" class="new__img">
+
+                    <a href="" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                Jackets
+                            </h2>
+                            <span>Autumn collection</span>
+                        </div>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="products section" id="products">
+            <h2 class="section__title">Best Products</h2>
+            <div class="products__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="products__card swiper-slide">
+                            <img src="img/10.webp" alt="" class="products__img">
+                            <h2 class="products__title">
+                                    Gotland Jacket
+                            </h2>
+                            <span class="products__price">$114.99</span>
+                        </article>
+                        <article class="products__card swiper-slide">
+                            <img src="img/5.webp" alt="" class="products__img">
+                            <h2 class="products__title">
+                                Jeans
+                            </h2>
+                            <span class="products__price">  $98.99</span>
+                        </article>
+                        <article class="products__card swiper-slide">
+                            <img src="img/6.webp" alt="" class="products__img">
+                            <h2 class="products__title">
+                               Blue Jeans
+                            </h2>
+                            <span class="products__price">$44.99</span>
+                        </article>
+                        <article class="products__card swiper-slide">
+                            <img src="img/7.webp" alt="" class="products__img">
+                            <h2 class="products__title">
+                                Jacket
+                            </h2>
+                            <span class="products__price">$44.99</span>
+                        </article>
+                        <article class="products__card swiper-slide">
+                            <img src="img/8.webp" alt="" class="products__img">
+                            <h2 class="products__title">
+                                Jacket
+                            </h2>
+                            <span class="products__price">$88.20</span>
+                        </article>
+                        <article class="products__card swiper-slide">
+                            <img src="img/9.webp" alt="" class="products__img">
+                            <h2 class="products__title">
+                                Knox Jacket
+                            </h2>
+                            <span class="products__price">$99.99</span>
+                        </article>
+                    </div>
+                    <div class="swiper-button-next"><i class="ri-arrow-right-line"></i></div>
+                    <div class="swiper-button-prev"><i class="ri-arrow-left-line"></i></div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer section">
+
+    </footer>
+    <script src="main/swiper-bundle.min.js"></script>
+    <script src="main/main.js">  </script>
+</body>
+</html>
